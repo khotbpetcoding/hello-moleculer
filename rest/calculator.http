@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000
+
+### Call add action
+GET {{baseUrl}}/calculator/add?a=4&b=9
+
+### Call subtract action
+GET {{baseUrl}}/calculator/subtract?a=8&b=2
+
+### Call multiply action
+GET {{baseUrl}}/calculator/multiply?a=15&b=2
+
+### Call divide action
+GET {{baseUrl}}/calculator/divide?a=10&b=5

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "moleculer-runner",
+      "type": "pwa-node",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/node_modules/.bin/moleculer-runner",
+      "args": ["--repl", "${workspaceFolder}/dist"],
+      "preLaunchTask": "tsc: build - tsconfig.json",
+      "console": "integratedTerminal",
+      "sourceMaps": true
+    }
+  ]
+}
